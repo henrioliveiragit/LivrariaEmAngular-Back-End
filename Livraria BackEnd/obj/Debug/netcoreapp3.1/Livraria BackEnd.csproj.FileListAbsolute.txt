@@ -1,0 +1,40 @@
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\Livraria BackEnd.exe
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\Livraria BackEnd.deps.json
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\Livraria BackEnd.runtimeconfig.json
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\Livraria BackEnd.runtimeconfig.dev.json
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\Livraria BackEnd.dll
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\Livraria BackEnd.pdb
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\obj\Debug\netcoreapp3.1\Livraria BackEnd.csproj.AssemblyReference.cache
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\obj\Debug\netcoreapp3.1\Livraria BackEnd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\obj\Debug\netcoreapp3.1\Livraria BackEnd.AssemblyInfoInputs.cache
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\obj\Debug\netcoreapp3.1\Livraria BackEnd.AssemblyInfo.cs
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\obj\Debug\netcoreapp3.1\Livraria BackEnd.csproj.CoreCompileInputs.cache
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\obj\Debug\netcoreapp3.1\Livraria BackEnd.MvcApplicationPartsAssemblyInfo.cache
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\obj\Debug\netcoreapp3.1\staticwebassets\Livraria BackEnd.StaticWebAssets.Manifest.cache
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\obj\Debug\netcoreapp3.1\Livraria BackEnd.RazorTargetAssemblyInfo.cache
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\obj\Debug\netcoreapp3.1\Livraria BackEnd.dll
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\obj\Debug\netcoreapp3.1\Livraria BackEnd.pdb
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\obj\Debug\netcoreapp3.1\Livraria BackEnd.genruntimeconfig.cache
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Projetos\Livraria BackEnd\Livraria BackEnd\obj\Debug\netcoreapp3.1\Livraria BackEnd.csproj.CopyComplete
