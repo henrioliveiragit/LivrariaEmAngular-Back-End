@@ -12,5 +12,6 @@ namespace Livraria_BackEnd.Models
 
         }
         public DbSet<Livros> Livros { get; set; }
+        public DbSet<Editoras> Editoras { get; set; }
     }
 }

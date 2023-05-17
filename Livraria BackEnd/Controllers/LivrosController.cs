@@ -7,8 +7,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace Livraria_BackEnd.Controllers
 {
     [Route("api/Livros")]
@@ -21,16 +19,13 @@ namespace Livraria_BackEnd.Controllers
             _context = context;
         }
 
+        // GET: api/Livros
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Livros>>> GetAll()
         {
             return await _context.Livros.ToListAsync();
         }
-
-            
-
-            
-
+ 
         // GET: api/Livros/{codigo}
         [HttpGet("{codigo}")]
         public async Task<ActionResult<Livros>> GetLivro(int codigo)
@@ -44,8 +39,43 @@ namespace Livraria_BackEnd.Controllers
             return livro;
         }
 
-        [HttpGet("teste")]
+        // PUT: api/Livros/{codigo}
+        [HttpPut("{codigo}")]
+        public async Task<IActionResult> PutLivro(int codigo, Livros livro)
+        {
+            if (codigo != livro.Codigo)
+            {
+                return BadRequest(); 
+            }
 
+            _context.Entry(livro).State = EntityState.Modified;
+
+            try
+            { 
+                await _context.SaveChangesAsync();
+            }
+            catch(DbUpdateConcurrencyException)
+            {
+                throw;
+
+            }
+
+            return NoContent();
+
+        }
+
+        //POST: api/Livros
+        [HttpPost]
+        public async Task<ActionResult<Livros>> PostLivro(Livros livro)
+        {
+            _context.Livros.Add(livro);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction("GetLivro", new { codigo = livro.Codigo}, livro);
+        }
+
+        // GET: api/Livros/teste
+        [HttpGet("teste")]
         public ActionResult teste()
         {
             try
@@ -59,22 +89,25 @@ namespace Livraria_BackEnd.Controllers
             }
         }
 
-        // POST api/<LivrosController>
-        [HttpPost]
-        public void Post([FromBody] string value)
+        // DELETE: api/Livros/{codigo}
+        [HttpDelete("{codigo}")]
+        public async Task<ActionResult<Livros>> DeleteLivro(int codigo)
         {
+            var livro = await _context.Livros.FindAsync(codigo);
+            if (livro == null)
+            {
+                return NotFound();
+            }
+
+            _context.Livros.Remove(livro);
+            await _context.SaveChangesAsync();
+
+            return livro;
         }
 
-        // PUT api/<LivrosController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        private bool LivroExists(int codigo)
         {
-        }
-
-        // DELETE api/<LivrosController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            return _context.Livros.Any(l => l.Codigo == codigo);
         }
     }
 }

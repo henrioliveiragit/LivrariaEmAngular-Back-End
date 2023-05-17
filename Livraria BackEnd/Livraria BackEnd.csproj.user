@@ -3,8 +3,8 @@
   <PropertyGroup>
     <Controller_SelectedScaffolderID>MvcControllerWithContextScaffolder</Controller_SelectedScaffolderID>
     <Controller_SelectedScaffolderCategoryPath>root/Common/MVC/Controller</Controller_SelectedScaffolderCategoryPath>
-    <WebStackScaffolding_ControllerDialogWidth>650,4</WebStackScaffolding_ControllerDialogWidth>
-    <_SelectedScaffolderID>ApiControllerWithContextScaffolder</_SelectedScaffolderID>
+    <WebStackScaffolding_ControllerDialogWidth>650</WebStackScaffolding_ControllerDialogWidth>
+    <_SelectedScaffolderID>ApiControllerWithActionsScaffolder</_SelectedScaffolderID>
     <_SelectedScaffolderCategoryPath>root/Common/Api</_SelectedScaffolderCategoryPath>
   </PropertyGroup>
 </Project>
