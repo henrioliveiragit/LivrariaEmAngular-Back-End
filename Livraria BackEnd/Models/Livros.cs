@@ -6,7 +6,7 @@ namespace Livraria_BackEnd.Models
     public class Livros
     {
         [Key]
-        public Guid Codigo { get; set; }
+        public int Codigo { get; set; }
         public int CodEditora { get; set; }
         [Required(ErrorMessage = "O campo Titulo é obrigatório")]
         [StringLength(30, ErrorMessage = "O campo Titulo precisa ter entre 1 e 30 caracteres", MinimumLength = 1)]

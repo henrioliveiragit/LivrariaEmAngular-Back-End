@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Livraria_BackEnd.Controllers
 {
     [ApiController]
-    [Route("api/teste")]
+    [Route("api")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]

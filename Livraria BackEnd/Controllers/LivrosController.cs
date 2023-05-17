@@ -21,18 +21,42 @@ namespace Livraria_BackEnd.Controllers
             _context = context;
         }
 
-        // GET: api/Livros
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Livros>>> GetLivros()
+        public async Task<ActionResult<IEnumerable<Livros>>> GetAll()
         {
             return await _context.Livros.ToListAsync();
         }
 
-        // GET api/<LivrosController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+            
+
+            
+
+        // GET: api/Livros/{codigo}
+        [HttpGet("{codigo}")]
+        public async Task<ActionResult<Livros>> GetLivro(int codigo)
         {
-            return "value";
+            var livro = await _context.Livros.FindAsync(codigo);
+            if(livro == null)
+            {
+                return NotFound();
+            }
+
+            return livro;
+        }
+
+        [HttpGet("teste")]
+
+        public ActionResult teste()
+        {
+            try
+            {
+                _context.Database.ExecuteSqlRaw("Select * from Livros");
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         // POST api/<LivrosController>
